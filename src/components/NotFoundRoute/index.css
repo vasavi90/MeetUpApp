@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  .note-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text {
+    color: #7b8794;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
