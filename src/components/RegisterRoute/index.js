@@ -13,6 +13,22 @@ const RegisterRoute = () => (
         alt="website register"
         className="website"
       />
+      <div className="input-container">
+        <h1 className="input-heading">Let us join</h1>
+        <label className="label" htmlFor="name">
+          NAME
+        </label>
+        <input type="text" className="input" id="name" />
+        <label className="label" htmlFor="topic">
+          TOPICS
+        </label>
+        <select className="input">
+          <option value="vasavi">vasavi</option>
+        </select>
+        <button type="button" className="button">
+          Register Now
+        </button>
+      </div>
     </div>
   </div>
 )

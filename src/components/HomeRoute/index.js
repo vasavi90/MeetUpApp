@@ -10,7 +10,7 @@ const HomeRoute = () => (
     <h1 className="heading">Meet up</h1>
     <p className="topic">your topic</p>
     <button type="button" className="button">
-      regiter
+      register
     </button>
     <img
       src="https://assets.ccbp.in/frontend/react-js/meetup/meetup-img.png"
@@ -19,4 +19,5 @@ const HomeRoute = () => (
     />
   </div>
 )
+
 export default HomeRoute

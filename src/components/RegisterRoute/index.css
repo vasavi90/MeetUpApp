@@ -22,6 +22,59 @@
 @media screen and (min-width: 768px) {
   .website {
     height: 400px;
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .input-heading {
+    color: #475569;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 46px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .label {
+    color: #7b8794;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .input {
+    border: 1px solid #7b8794;
+    background-color: #ffffff;
+    border-radius: 10px;
+    outline: none;
     width: 350px;
+    padding: 9px;
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: 300;
+    color: #7b8794;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    background-color: #3b82f6;
+    padding: 10px;
+    border-radius: 9px;
+    margin-top: 30px;
+    width: 160px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
   }
 }
