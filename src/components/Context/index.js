@@ -5,6 +5,8 @@ const Context = React.createContext({
   onChangeInput: () => {},
   topic: '',
   onChangeTopic: () => {},
+  textStatus: true,
+  onChangeStatus: () => {},
 })
 
 export default Context

@@ -24,6 +24,16 @@
     font-weight: bold;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .before-text {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .topic {
     color: #64748b;
@@ -42,6 +52,7 @@
     font-size: 20px;
     color: #ffffff;
     font-weight: 500;
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 768px) {
